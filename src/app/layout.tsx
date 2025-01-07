@@ -25,8 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen relative`}
       >
+        <div className="absolute inset-0 -z-10">
+          <div className="relative h-full w-full">
+            <div className="absolute top-0 left-0 z-[-2] h-full w-full bg-gradient-to-b from-white to-gray-200"></div>
+            <div className="absolute top-0 left-0 z-[-1] h-full w-full mix-blend-multiply bg-[radial-gradient(#00000008_1px,transparent_1px)] [background-size:16px_16px]"></div>
+          </div>
+        </div>
         {children}
       </body>
     </html>
