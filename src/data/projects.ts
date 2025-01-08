@@ -17,7 +17,7 @@ export const projects: Project[] = [
     image: "/thumbnails/jogo.webp",
     tags: ["Gaming", "Education", "Real-Time", "Interactive"],
     liveUrl: undefined,
-    localUrl: undefined,
+    localUrl: "/projetos/vibra",
   },
   {
     id: 2,
@@ -51,12 +51,12 @@ export const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Plataforma Colaborativa em Tempo Real",
+    title: "Plataforma Colaborativa em Tempo Real Miro",
     description:
       "Plataforma colaborativa em tempo real com chat, compartilhamento de arquivos e controle de versão.",
     image: "/thumbnails/colaborative.webp",
     tags: ["Real-Time", "Collaboration", "Chat", "File Sharing"],
-    liveUrl: undefined,
+    liveUrl: "https://miro-clone-nextjs.vercel.app/",
     localUrl: undefined,
   },
   {
@@ -66,7 +66,7 @@ export const projects: Project[] = [
       "Editor de textos colaborativo similar a Google Docs com controle de versão e colaboração em tempo real.",
     image: "/thumbnails/googledocs.webp",
     tags: ["Real-Time", "Collaboration", "Text Editor", "Version Control"],
-    liveUrl: undefined,
+    liveUrl: "https://docs-google-ali.vercel.app/",
     localUrl: undefined,
   },
   {
