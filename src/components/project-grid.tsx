@@ -53,7 +53,8 @@ export default function ProjectGrid() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <GalleryThumbnailsIcon className="mr-2 h-4 w-4" /> GitHub
+                      <GalleryThumbnailsIcon className="mr-2 h-4 w-4" /> Ver
+                      Mais
                     </a>
                   </Button>
                 </div>

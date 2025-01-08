@@ -10,7 +10,7 @@ export default function PortfolioPage() {
         <div className="flex justify-center w-full">
           <div className="inline-block mb-16 bg-white/50 backdrop-blur-sm px-8 py-4 rounded-lg">
             <h1 className="text-4xl font-light text-center text-slate-900 tracking-tight">
-              Nossos Projetos
+              Projetos
             </h1>
           </div>
         </div>
