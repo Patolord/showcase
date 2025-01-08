@@ -66,7 +66,7 @@ export const projects: Project[] = [
       "Editor de textos colaborativo similar a Google Docs com controle de versão e colaboração em tempo real.",
     image: "/thumbnails/googledocs.webp",
     tags: ["Real-Time", "Collaboration", "Text Editor", "Version Control"],
-    liveUrl: "https://docs-google-ali.vercel.app/",
+    liveUrl: "https://docs-tutorial-master.vercel.app/",
     localUrl: undefined,
   },
   {
