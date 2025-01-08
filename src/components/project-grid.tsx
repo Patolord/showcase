@@ -38,25 +38,29 @@ export default function ProjectGrid() {
               />
               {hoveredProject === project.id && (
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center space-x-4">
-                  <Button asChild variant="secondary">
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
-                    </a>
-                  </Button>
-                  <Button asChild variant="secondary">
-                    <a
-                      href={project.localUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <GalleryThumbnailsIcon className="mr-2 h-4 w-4" /> Ver
-                      Mais
-                    </a>
-                  </Button>
+                  {project.liveUrl && (
+                    <Button asChild variant="secondary">
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" /> Live Demo
+                      </a>
+                    </Button>
+                  )}
+                  {project.localUrl && (
+                    <Button asChild variant="secondary">
+                      <a
+                        href={project.localUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <GalleryThumbnailsIcon className="mr-2 h-4 w-4" /> Ver
+                        Mais
+                      </a>
+                    </Button>
+                  )}
                 </div>
               )}
             </div>
