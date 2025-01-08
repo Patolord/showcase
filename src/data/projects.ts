@@ -56,7 +56,7 @@ export const projects: Project[] = [
       "Plataforma colaborativa em tempo real com chat, compartilhamento de arquivos e controle de versão.",
     image: "/thumbnails/colaborative.webp",
     tags: ["Real-Time", "Collaboration", "Chat", "File Sharing"],
-    liveUrl: "https://miro-clone-nextjs.vercel.app/",
+    liveUrl: "https://next14-miro-clone-additional-master.vercel.app/",
     localUrl: undefined,
   },
   {
