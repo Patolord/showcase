@@ -17,7 +17,7 @@ export const projects: Project[] = [
     image: "/thumbnails/jogo.webp",
     tags: ["Gaming", "Education", "Real-Time", "Interactive"],
     liveUrl: "https://vibra-showcase-seven.vercel.app/",
-    localUrl: "/projetos/vibra",
+    localUrl: undefined,
   },
   {
     id: 2,
