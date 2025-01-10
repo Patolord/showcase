@@ -12,6 +12,10 @@ export default function PortfolioPage() {
             <h1 className="text-4xl font-light text-center text-slate-900 tracking-tight">
               Projetos
             </h1>
+            <p className="text-center text-slate-900">
+              Para acessar os projetos, use o usuário <strong>Teste</strong> e a
+              senha <strong>Teste@2025</strong>.
+            </p>
           </div>
         </div>
         <ProjectGrid />
