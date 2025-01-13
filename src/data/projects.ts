@@ -16,7 +16,7 @@ export const projects: Project[] = [
       "Plataforma gamificada com conteúdo educativo, quizzes, pontuação e ranking, estimulando aprendizado e engajamento por meio de recompensas.",
     image: "/thumbnails/jogo.webp",
     tags: ["Gaming", "Education", "Real-Time", "Interactive"],
-    liveUrl: "https://vibra-showcase-seven.vercel.app/",
+    liveUrl: undefined,
     localUrl: undefined,
   },
   {
